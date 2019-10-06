@@ -3,6 +3,7 @@ package com.nwnu.news.entity;
 import lombok.Data;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 import javax.persistence.Table;
 import java.io.Serializable;
 
@@ -22,6 +23,7 @@ import java.io.Serializable;
 @Table(name = "bzy_sohu_article")
 public class BzySohuEntity implements Serializable {
 	private static final long serialVersionUID = -6368035391217274853L;
+	@Id
 	private String id;
 	private String title;
 	private String time;

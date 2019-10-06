@@ -34,17 +34,17 @@ public class NewsController {
 
 	@RequestMapping("/index")
 	public String index() {
-		return "/index";
+		return "index";
 	}
 
 	@RequestMapping("/list")
 	public String list(@RequestParam("type") String type) {
 		if (type.equals("sina")) {
-			return "/sina_list";
+			return "sina_list.html";
 		} else if (type.equals("sohu")) {
-			return "/sohu_list";
+			return "sohu_list.html";
 		} else {
-			return "/tianya_list";
+			return "tianya_list.html";
 		}
 	}
 
@@ -71,7 +71,7 @@ public class NewsController {
 		log.info(id);
 		ModelAndView mav = new ModelAndView();
 		mav.addObject("SinaEntity", sinaService.findById(id));
-		mav.setViewName("/sina_detail");
+		mav.setViewName("sina_detail.html");
 		return mav;
 	}
 }
