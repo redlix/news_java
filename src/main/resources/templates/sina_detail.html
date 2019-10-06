@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
+    <link rel="stylesheet" href="/dist/bootstrap-table.min.css" type="text/css"/>
+
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/popper.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="/dist/bootstrap-table.min.js"></script>
+    <script type="text/javascript" src="/dist/locale/bootstrap-table-zh-CN.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
+    <title>Bootstrap</title>
+</head>
+<style type="text/css">
+    * {
+        font-family: 微软雅黑;
+    }
+</style>
+<body>
+<div class="container">
+    <h1 class="page-header" align="center"><span class="badge badge-secondary">新浪语篇详情</span></h1>
+
+    <div class="panel panel-default">
+        <!--/*@thymesVar id="SinaEntity" type="com.nwnu.news.entity.SjSinaArticleEntity"*/-->
+        <p th:text="${SinaEntity.getPost_content_txt()}"></p>
+    </div>
+</div>
+</body>
+</html>
