@@ -1,18 +1,491 @@
-2019-10-06 13:20:33,265 INFO (StartupInfoLogger.java:50)- Starting NewsApplicationTests on MacBookPro.local with PID 28236 (started by red in /Users/red/Desktop/workspace/project/java/news)
-2019-10-06 13:20:33,266 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
-2019-10-06 13:20:33,266 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
-2019-10-06 13:20:36,163 INFO (StartupInfoLogger.java:59)- Started NewsApplicationTests in 3.018 seconds (JVM running for 3.546)
-2019-10-06 13:27:09,867 INFO (StartupInfoLogger.java:50)- Starting NewsApplicationTests on MacBookPro.local with PID 28972 (started by red in /Users/red/Desktop/workspace/project/java/news)
-2019-10-06 13:27:09,867 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
-2019-10-06 13:27:09,868 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
-2019-10-06 13:27:12,742 INFO (StartupInfoLogger.java:59)- Started NewsApplicationTests in 3.003 seconds (JVM running for 3.535)
-2019-10-06 13:34:24,221 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on MacBookPro.local with PID 29066 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
-2019-10-06 13:34:24,223 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
-2019-10-06 13:34:24,223 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
-2019-10-06 13:34:26,467 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.459 seconds (JVM running for 3.05)
-2019-10-06 13:34:36,853 INFO (NewsController.java:71)- ffffe32e-ee40-45a0-8272-f7d2db824f53
-2019-10-06 13:34:40,121 INFO (NewsController.java:71)- fff98744-7ade-411e-a123-a18d01a91dcb
-2019-10-06 13:35:17,070 INFO (StartupInfoLogger.java:50)- Starting NewsApplicationTests on MacBookPro.local with PID 29105 (started by red in /Users/red/Desktop/workspace/project/java/news)
-2019-10-06 13:35:17,071 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
-2019-10-06 13:35:17,071 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
-2019-10-06 13:35:20,563 INFO (StartupInfoLogger.java:59)- Started NewsApplicationTests in 3.683 seconds (JVM running for 4.228)
+2019-11-13 08:42:41,642 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 15975 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 08:42:41,646 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 08:42:41,646 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 08:43:28,899 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 15991 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 08:43:28,900 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 08:43:28,901 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 08:44:45,659 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16009 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 08:44:45,661 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 08:44:45,662 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 08:46:13,486 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16040 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 08:46:13,487 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 08:46:13,488 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 08:46:16,050 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.769 seconds (JVM running for 3.192)
+2019-11-13 08:52:26,525 INFO (StartupInfoLogger.java:50)- Starting GeneratorPassword on mbp.local with PID 16200 (started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 08:52:26,526 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 08:52:26,528 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 08:52:30,263 INFO (StartupInfoLogger.java:59)- Started GeneratorPassword in 4.101 seconds (JVM running for 4.796)
+2019-11-13 08:53:29,519 INFO (StartupInfoLogger.java:50)- Starting GeneratorPassword on mbp.local with PID 16225 (started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 08:53:29,520 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 08:53:29,521 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 08:53:33,048 INFO (StartupInfoLogger.java:59)- Started GeneratorPassword in 3.72 seconds (JVM running for 4.415)
+2019-11-13 08:55:56,593 INFO (StartupInfoLogger.java:50)- Starting GeneratorPassword on mbp.local with PID 16262 (started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 08:55:56,594 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 08:55:56,594 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 08:56:00,472 INFO (StartupInfoLogger.java:59)- Started GeneratorPassword in 4.225 seconds (JVM running for 4.887)
+2019-11-13 08:56:00,527 INFO (GeneratorPassword.java:38)- url = ENC(ku7ZKSDjQ+fQ8JOethz29aWzBtDJVv4lkC0wuaccYGhO6zN1iSiORnPNwBxYT1Go3MDXdABC8ta6Hs4pR04Dhs9vfmtryEvmBjYdHmxssqvWnM2QNd6SS0qeNPq86Xhjtfo/HocHT74=)
+2019-11-13 08:56:00,528 INFO (GeneratorPassword.java:39)- name = ENC(7CPrpzGw8A91Yq9i4WsiDw==)
+2019-11-13 08:56:00,528 INFO (GeneratorPassword.java:40)- password = ENC(RzM2+qDByNq7RJ6FL0mHvkd9DdGzJXqb)
+2019-11-13 08:56:15,111 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16270 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 08:56:15,113 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 08:56:15,113 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 08:56:17,734 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.863 seconds (JVM running for 3.406)
+2019-11-13 09:02:40,134 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16366 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:02:40,136 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:02:40,136 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:02:42,922 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.079 seconds (JVM running for 3.698)
+2019-11-13 09:06:23,914 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16439 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:06:23,915 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:06:23,916 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:06:26,442 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.734 seconds (JVM running for 3.296)
+2019-11-13 09:07:35,103 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16460 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:07:35,104 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:07:35,105 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:07:37,797 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.927 seconds (JVM running for 3.41)
+2019-11-13 09:08:07,154 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16472 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:08:07,155 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:08:07,156 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:08:10,014 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.06 seconds (JVM running for 3.482)
+2019-11-13 09:09:20,860 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16491 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:09:20,862 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:09:20,862 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:09:23,450 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.804 seconds (JVM running for 3.381)
+2019-11-13 09:10:59,733 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16524 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:10:59,734 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:10:59,735 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:11:02,661 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.201 seconds (JVM running for 3.601)
+2019-11-13 09:30:50,196 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16602 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:30:50,198 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:30:50,198 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:30:53,250 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.329 seconds (JVM running for 3.728)
+2019-11-13 09:32:23,954 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16618 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:32:23,956 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:32:23,957 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:32:26,515 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.767 seconds (JVM running for 3.372)
+2019-11-13 09:33:29,689 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16680 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:33:29,691 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:33:29,692 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:33:32,265 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.799 seconds (JVM running for 3.378)
+2019-11-13 09:34:25,007 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16724 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:34:25,008 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:34:25,009 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:34:27,909 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.152 seconds (JVM running for 3.874)
+2019-11-13 09:40:25,529 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16811 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:40:25,530 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:40:25,531 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:40:28,079 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.75 seconds (JVM running for 3.307)
+2019-11-13 09:41:22,617 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16839 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:41:22,619 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:41:22,619 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:41:25,224 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.799 seconds (JVM running for 3.195)
+2019-11-13 09:42:21,109 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16852 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:42:21,111 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:42:21,111 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:42:24,402 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.593 seconds (JVM running for 4.027)
+2019-11-13 09:44:07,195 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16895 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:44:07,196 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:44:07,197 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:44:10,171 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.192 seconds (JVM running for 3.833)
+2019-11-13 09:48:11,622 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16912 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:48:11,623 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:48:11,624 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:48:14,217 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.793 seconds (JVM running for 3.19)
+2019-11-13 09:48:52,607 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16921 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:48:52,609 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:48:52,610 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:48:55,079 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.706 seconds (JVM running for 3.097)
+2019-11-13 09:50:46,208 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16937 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:50:46,210 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:50:46,210 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:50:48,702 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.683 seconds (JVM running for 3.075)
+2019-11-13 09:54:15,919 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16969 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:54:15,920 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:54:15,921 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:54:18,447 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.735 seconds (JVM running for 3.298)
+2019-11-13 09:56:10,431 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16986 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:56:10,434 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:56:10,434 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:56:13,195 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.966 seconds (JVM running for 3.454)
+2019-11-13 09:58:30,951 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 16996 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:58:30,952 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:58:30,953 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:58:33,484 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.725 seconds (JVM running for 3.119)
+2019-11-13 09:59:53,145 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17012 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 09:59:53,147 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 09:59:53,147 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 09:59:55,707 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.761 seconds (JVM running for 3.159)
+2019-11-13 10:06:03,868 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17067 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:06:03,870 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:06:03,871 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:06:06,505 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.838 seconds (JVM running for 3.522)
+2019-11-13 10:07:14,003 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17081 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:07:14,005 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:07:14,005 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:07:16,539 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.736 seconds (JVM running for 3.151)
+2019-11-13 10:07:39,754 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17089 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:07:39,756 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:07:39,756 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:07:42,412 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.862 seconds (JVM running for 3.356)
+2019-11-13 10:09:08,737 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17098 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:09:08,739 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:09:08,739 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:09:11,592 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.058 seconds (JVM running for 3.476)
+2019-11-13 10:10:12,794 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17111 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:10:12,796 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:10:12,796 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:10:15,797 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.198 seconds (JVM running for 3.742)
+2019-11-13 10:23:13,121 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17150 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:23:13,123 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:23:13,124 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:23:15,850 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.031 seconds (JVM running for 3.663)
+2019-11-13 10:27:00,671 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17165 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:27:00,673 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:27:00,673 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:27:03,280 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.803 seconds (JVM running for 3.338)
+2019-11-13 10:29:28,017 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17174 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:29:28,020 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:29:28,020 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:29:31,204 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.509 seconds (JVM running for 4.112)
+2019-11-13 10:30:26,441 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17185 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:30:26,443 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:30:26,443 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:30:28,939 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.689 seconds (JVM running for 3.11)
+2019-11-13 10:31:26,668 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17194 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:31:26,670 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:31:26,671 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:31:29,403 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.927 seconds (JVM running for 3.33)
+2019-11-13 10:33:19,955 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17209 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:33:19,956 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:33:19,957 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:33:22,463 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.711 seconds (JVM running for 3.127)
+2019-11-13 10:33:44,665 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17216 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:33:44,667 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:33:44,668 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:33:47,500 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.037 seconds (JVM running for 3.447)
+2019-11-13 10:35:29,918 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17224 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:35:29,920 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:35:29,920 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:35:32,380 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.661 seconds (JVM running for 3.257)
+2019-11-13 10:38:03,690 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17243 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:38:03,691 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:38:03,692 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:38:06,702 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.239 seconds (JVM running for 3.942)
+2019-11-13 10:47:22,549 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17379 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:47:22,550 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:47:22,551 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:47:25,119 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.753 seconds (JVM running for 3.152)
+2019-11-13 10:47:37,880 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17385 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:47:37,881 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:47:37,882 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:47:40,428 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.758 seconds (JVM running for 3.154)
+2019-11-13 10:49:20,753 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17409 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:49:20,757 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:49:20,757 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:49:30,882 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17429 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:49:30,884 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:49:30,884 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:49:33,474 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.867 seconds (JVM running for 3.658)
+2019-11-13 10:50:47,918 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17446 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:50:47,920 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:50:47,921 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:50:50,373 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.649 seconds (JVM running for 3.042)
+2019-11-13 10:52:28,651 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17460 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:52:28,653 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:52:28,653 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:52:31,443 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.999 seconds (JVM running for 3.606)
+2019-11-13 10:54:25,858 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17480 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:54:25,860 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:54:25,861 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:54:28,754 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.111 seconds (JVM running for 3.606)
+2019-11-13 10:55:01,470 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17489 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:55:01,471 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:55:01,472 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:55:04,095 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.822 seconds (JVM running for 3.226)
+2019-11-13 10:56:28,213 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17501 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:56:28,215 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:56:28,216 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:56:30,749 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.86 seconds (JVM running for 3.439)
+2019-11-13 10:57:20,437 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17510 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:57:20,439 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:57:20,440 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:57:23,122 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.887 seconds (JVM running for 3.38)
+2019-11-13 10:58:14,425 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17518 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:58:14,428 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:58:14,428 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:58:17,479 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.263 seconds (JVM running for 3.78)
+2019-11-13 10:59:35,161 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17547 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 10:59:35,163 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 10:59:35,163 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 10:59:38,240 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.284 seconds (JVM running for 3.918)
+2019-11-13 11:00:22,148 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17556 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 11:00:22,149 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 11:00:22,150 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 11:00:24,618 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.662 seconds (JVM running for 3.064)
+2019-11-13 11:01:00,532 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17563 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 11:01:00,533 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 11:01:00,534 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 11:01:03,192 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.851 seconds (JVM running for 3.25)
+2019-11-13 11:01:13,526 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17569 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 11:01:13,528 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 11:01:13,528 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 11:01:16,107 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.796 seconds (JVM running for 3.188)
+2019-11-13 11:03:39,301 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17594 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 11:03:39,303 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 11:03:39,304 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 11:03:41,999 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.898 seconds (JVM running for 3.296)
+2019-11-13 11:06:43,707 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17614 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 11:06:43,709 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 11:06:43,710 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 11:06:46,342 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.874 seconds (JVM running for 3.486)
+2019-11-13 11:07:48,913 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17643 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 11:07:48,915 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 11:07:48,915 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 11:07:51,562 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.984 seconds (JVM running for 3.602)
+2019-11-13 12:47:01,366 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17918 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:47:01,368 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:47:01,368 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:47:04,337 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.165 seconds (JVM running for 3.57)
+2019-11-13 12:48:23,006 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17964 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:48:23,007 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:48:23,008 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:48:25,780 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.016 seconds (JVM running for 3.955)
+2019-11-13 12:49:10,768 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 17982 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:49:10,770 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:49:10,771 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:49:13,663 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.085 seconds (JVM running for 3.496)
+2019-11-13 12:50:36,534 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18001 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:50:36,536 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:50:36,536 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:50:39,460 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.207 seconds (JVM running for 3.883)
+2019-11-13 12:51:57,794 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18014 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:51:57,796 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:51:57,797 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:52:00,726 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.131 seconds (JVM running for 3.531)
+2019-11-13 12:53:15,357 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18032 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:53:15,359 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:53:15,360 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:53:18,280 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.157 seconds (JVM running for 3.725)
+2019-11-13 12:54:17,642 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18047 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:54:17,644 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:54:17,644 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:54:20,225 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.778 seconds (JVM running for 3.184)
+2019-11-13 12:55:05,629 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18057 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:55:05,632 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:55:05,632 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:55:08,516 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.083 seconds (JVM running for 3.488)
+2019-11-13 12:56:47,676 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18072 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 12:56:47,679 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 12:56:47,680 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 12:56:50,239 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.761 seconds (JVM running for 3.337)
+2019-11-13 13:01:38,367 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18090 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:01:38,369 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:01:38,369 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:01:41,128 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.011 seconds (JVM running for 3.719)
+2019-11-13 13:06:53,415 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18656 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:06:53,416 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:06:53,417 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:06:56,149 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.947 seconds (JVM running for 3.583)
+2019-11-13 13:09:52,274 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18691 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:09:52,277 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:09:52,277 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:09:54,783 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.747 seconds (JVM running for 3.571)
+2019-11-13 13:11:07,190 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18707 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:11:07,191 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:11:07,192 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:11:09,756 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.767 seconds (JVM running for 3.201)
+2019-11-13 13:14:54,126 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18725 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:14:54,128 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:14:54,128 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:14:56,765 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.843 seconds (JVM running for 3.421)
+2019-11-13 13:16:14,199 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18735 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:16:14,201 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:16:14,202 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:16:16,811 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.965 seconds (JVM running for 3.382)
+2019-11-13 13:19:44,606 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18764 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:19:44,608 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:19:44,609 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:19:47,539 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.244 seconds (JVM running for 4.095)
+2019-11-13 13:20:45,303 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18784 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:20:45,304 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:20:45,305 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:20:47,828 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.718 seconds (JVM running for 3.123)
+2019-11-13 13:23:27,901 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18814 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:23:27,904 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:23:27,904 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:23:30,399 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.709 seconds (JVM running for 3.346)
+2019-11-13 13:24:05,479 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18821 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:24:05,482 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:24:05,483 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:24:08,240 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.979 seconds (JVM running for 3.376)
+2019-11-13 13:24:38,198 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18827 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:24:38,199 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:24:38,200 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:24:40,952 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.953 seconds (JVM running for 3.356)
+2019-11-13 13:25:05,083 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18834 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:25:05,085 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:25:05,085 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:25:07,909 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.02 seconds (JVM running for 3.435)
+2019-11-13 13:25:49,032 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18848 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:25:49,033 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:25:49,034 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:25:52,196 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.436 seconds (JVM running for 4.077)
+2019-11-13 13:28:08,786 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18895 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:28:08,788 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:28:08,788 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:28:11,436 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.846 seconds (JVM running for 3.255)
+2019-11-13 13:28:30,552 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18918 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:28:30,555 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:28:30,555 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:28:33,692 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.465 seconds (JVM running for 4.16)
+2019-11-13 13:31:23,510 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18939 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:31:23,511 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:31:23,512 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:31:25,947 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.633 seconds (JVM running for 3.154)
+2019-11-13 13:33:23,686 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18955 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:33:23,688 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:33:23,689 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:33:26,573 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.082 seconds (JVM running for 4.285)
+2019-11-13 13:34:52,540 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18983 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:34:52,542 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:34:52,543 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:34:55,201 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.11 seconds (JVM running for 3.822)
+2019-11-13 13:35:40,990 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 18999 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:35:40,992 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:35:40,993 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:35:43,524 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.736 seconds (JVM running for 3.162)
+2019-11-13 13:37:37,100 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19012 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:37:37,102 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:37:37,103 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:37:39,945 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.058 seconds (JVM running for 3.483)
+2019-11-13 13:38:04,659 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19033 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:38:04,661 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:38:04,662 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:38:07,595 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.315 seconds (JVM running for 4.052)
+2019-11-13 13:38:36,901 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19048 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:38:36,903 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:38:36,904 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:38:40,081 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.388 seconds (JVM running for 3.952)
+2019-11-13 13:43:33,725 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19107 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:43:33,727 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:43:33,727 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:43:36,429 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.983 seconds (JVM running for 3.842)
+2019-11-13 13:46:02,157 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19130 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:46:02,159 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:46:02,160 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:46:04,664 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.789 seconds (JVM running for 3.482)
+2019-11-13 13:46:51,907 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19140 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:46:51,908 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:46:51,908 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:46:54,331 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.618 seconds (JVM running for 3.049)
+2019-11-13 13:47:30,838 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19148 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:47:30,840 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:47:30,841 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:47:33,548 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.91 seconds (JVM running for 3.311)
+2019-11-13 13:50:21,126 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19164 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:50:21,128 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:50:21,128 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:50:23,616 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.692 seconds (JVM running for 3.259)
+2019-11-13 13:51:32,503 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19174 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:51:32,505 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:51:32,505 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:51:34,977 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.668 seconds (JVM running for 3.065)
+2019-11-13 13:53:52,166 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19220 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:53:52,168 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:53:52,168 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:53:54,886 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.92 seconds (JVM running for 3.319)
+2019-11-13 13:54:22,790 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19241 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:54:22,793 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:54:22,793 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:54:25,261 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.881 seconds (JVM running for 3.554)
+2019-11-13 13:55:55,392 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19260 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:55:55,393 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:55:55,394 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:55:57,831 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.647 seconds (JVM running for 3.231)
+2019-11-13 13:56:44,956 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19267 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:56:44,958 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:56:44,959 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:56:47,640 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.871 seconds (JVM running for 3.274)
+2019-11-13 13:57:19,728 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19272 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:57:19,730 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:57:19,730 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:57:22,553 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.028 seconds (JVM running for 3.452)
+2019-11-13 13:58:43,238 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19284 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:58:43,240 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:58:43,240 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:58:45,918 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.882 seconds (JVM running for 3.501)
+2019-11-13 13:59:21,494 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19293 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 13:59:21,495 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 13:59:21,496 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 13:59:24,475 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.174 seconds (JVM running for 3.59)
+2019-11-13 14:01:23,130 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19308 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:01:23,133 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:01:23,133 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:01:25,668 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.737 seconds (JVM running for 3.313)
+2019-11-13 14:01:50,389 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19315 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:01:50,390 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:01:50,391 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:01:53,238 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.047 seconds (JVM running for 3.443)
+2019-11-13 14:02:50,952 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19323 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:02:50,954 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:02:50,955 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:02:54,094 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.332 seconds (JVM running for 3.746)
+2019-11-13 14:03:43,812 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19340 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:03:43,813 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:03:43,814 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:03:46,946 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.34 seconds (JVM running for 3.877)
+2019-11-13 14:04:14,283 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19352 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:04:14,285 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:04:14,285 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:04:16,787 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.694 seconds (JVM running for 3.099)
+2019-11-13 14:07:06,921 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19367 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:07:06,924 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:07:06,925 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:07:09,385 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.71 seconds (JVM running for 3.368)
+2019-11-13 14:08:10,782 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19375 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:08:10,784 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:08:10,784 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:08:13,882 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.306 seconds (JVM running for 3.819)
+2019-11-13 14:09:51,440 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19385 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:09:51,441 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:09:51,442 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:09:53,986 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.74 seconds (JVM running for 3.32)
+2019-11-13 14:10:55,690 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19394 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:10:55,692 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:10:55,692 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:10:58,681 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.285 seconds (JVM running for 3.964)
+2019-11-13 14:11:47,369 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19416 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:11:47,371 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:11:47,372 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:11:49,940 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.766 seconds (JVM running for 3.172)
+2019-11-13 14:12:48,099 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19424 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:12:48,101 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:12:48,101 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:12:50,945 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.042 seconds (JVM running for 3.453)
+2019-11-13 14:16:25,734 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19448 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:16:25,736 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:16:25,736 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:16:28,465 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.947 seconds (JVM running for 3.577)
+2019-11-13 14:16:58,361 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19459 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:16:58,364 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:16:58,365 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:17:01,739 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.657 seconds (JVM running for 4.229)
+2019-11-13 14:18:31,684 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19472 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:18:31,686 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:18:31,686 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:18:34,477 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.991 seconds (JVM running for 3.59)
+2019-11-13 14:19:19,558 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19481 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:19:19,560 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:19:19,560 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:19:22,266 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.91 seconds (JVM running for 3.331)
+2019-11-13 14:20:18,647 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19496 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:20:18,649 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:20:18,649 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:20:21,277 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.866 seconds (JVM running for 3.292)
+2019-11-13 14:21:11,170 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19503 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:21:11,171 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:21:11,172 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:21:14,331 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 3.361 seconds (JVM running for 3.915)
+2019-11-13 14:22:33,738 INFO (StartupInfoLogger.java:50)- Starting NewsApplication on mbp.local with PID 19522 (/Users/red/Desktop/workspace/project/java/news/target/classes started by red in /Users/red/Desktop/workspace/project/java/news)
+2019-11-13 14:22:33,740 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.1.9.RELEASE, Spring v5.1.10.RELEASE
+2019-11-13 14:22:33,740 INFO (SpringApplication.java:648)- No active profile set, falling back to default profiles: default
+2019-11-13 14:22:36,189 INFO (StartupInfoLogger.java:59)- Started NewsApplication in 2.65 seconds (JVM running for 3.059)

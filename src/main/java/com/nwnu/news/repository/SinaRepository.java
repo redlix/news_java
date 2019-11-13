@@ -1,6 +1,6 @@
 package com.nwnu.news.repository;
 
-import com.nwnu.news.entity.SjSinaArticleEntity;
+import com.nwnu.news.entity.SinaEntity;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
@@ -16,6 +16,6 @@ import org.springframework.stereotype.Repository;
  * @since 1.0.0
  */
 @Repository
-public interface SinaRepository extends JpaRepository<SjSinaArticleEntity, String> {
+public interface SinaRepository extends JpaRepository<SinaEntity, String> {
 
 }

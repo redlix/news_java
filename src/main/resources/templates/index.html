@@ -2,15 +2,16 @@
 <html lang="en" xmlns="http://www.w3.org/1999/xhtml"
       xmlns:th="http://www.thymeleaf.org"
       xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <link rel="stylesheet" href="/css/bootstrap.css" type="text/css"/>
 
     <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
     <script type="text/javascript" src="/js/bootstrap.js"></script>
-    <title>Bootstrap</title>
+    <title>网络语言语料库</title>
 </head>
 <style type="text/css">
     * {
@@ -20,86 +21,211 @@
 <body>
 <div class="container">
     <h1 class="page-header" align="center"><span class="badge badge-secondary">语料库总览</span></h1>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="panel panel-warning ">
-                <div class="panel-heading">
-                    <a href="/news/list?type=sina" target="_blank">
-                        <h2><span class="badge badge-secondary">新浪语料</span></h2>
-                    </a>
-                </div>
-                <div class="panel-body">
-                    <div class="list-group">
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
+    <!--面包屑-->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">首页</li>
+        </ol>
+    </nav>
+
+    <div class="accordion" id="accordionExample">
+        <div class="card">
+            <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                    <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapseOne"
+                            aria-expanded="true" aria-controls="collapseOne">
+                        新浪语料库
+                    </button>
+                </h2>
+            </div>
+
+            <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="panel panel-warning ">
+                        <div class="panel-heading col-md-12 row">
+                            <div class="col-md-3">
+                                <a href="/news/list?type=sina">
+                                    <h2>
+                                        <button
+                                                type="button" class="btn btn-primary btn-lg">新浪语料查看
+                                        </button>
+                                    </h2>
+                                </a>
+                            </div>
+                            <div class="col-md-3">
+                                <a href="/news/list?type=sinaSearch">
+                                    <h2>
+                                        <button
+                                                type="button" class="btn btn-primary btn-lg">新浪语料检索
+                                        </button>
+                                    </h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <div class="alert alert-secondary" role="alert">
+                                    <h4>新浪语料库样本数</h4>
+                                    <code class="highlighter-rouge">10000</code>
+                                </div>
+                                <div class="alert alert-secondary" role="alert">
+                                    <h4>新浪语料库字符数</h4>
+                                    <code class="highlighter-rouge">10000</code>
+                                </div>
+                                <div class="alert alert-secondary" role="alert">
+                                    <h4>新浪语料库总汉字个数</h4>
+                                    <code class="highlighter-rouge">10000</code>
+                                </div>
+                                <div class="alert alert-secondary" role="alert">
+                                    <h4>新浪语料库说明</h4>
+                                    <p>新浪网络语言语料库是一个大型语料库。</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="panel panel-danger ">
-                <div class="panel-heading">
-                    <a href="/news/list?type=sohu" target="_blank">
-                        <h2><span class="badge badge-secondary">搜狐语料</span></h2>
-                    </a>
-                </div>
-                <div class="panel-body">
-                    <div class="list-group">
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
+        <div class="card">
+            <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                        搜狐语料库
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="panel panel-danger ">
+                        <div class="panel-heading col-md-12 row">
+                            <div class="col-md-2">
+                                <a href="/news/list?type=search">
+                                    <h2><span class="badge badge-secondary">搜狐语料检索</span></h2>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="/news/list?type=sohu">
+                                    <h2><span class="badge badge-secondary">搜狐语料查看</span></h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a class="list-group-item">
+                                    <h3>搜狐语料库样本数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>搜狐语料库字符数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>搜狐语料库总汉字个数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>新浪语料库说明</h3>
+                                    <p>搜狐网络语言语料库是一个大型语料库。</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
-    <div class="row">
-        <div class="col-md-12">
-            <div class="panel panel-danger ">
-                <div class="panel-heading">
-                    <a href="/news/list?type=tianya" target="_blank">
-                        <h2><span class="badge badge-secondary">天涯语料</span></h2>
-                    </a>
-                </div>
-                <div class="panel-body">
-                    <div class="list-group">
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
-                        <a href="" class="list-group-item">
-                            <h3>bootstrap</h3>
-                            <p>fidobngdo nv c oivuc on jvifrvufovdfjvodf</p>
-                        </a>
+        <div class="card">
+            <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                        天涯语料库
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="panel panel-danger ">
+                        <div class="panel-heading col-md-12 row">
+                            <div class="col-md-2">
+                                <a href="/news/list?type=search">
+                                    <h2><span class="badge badge-secondary">天涯语料检索</span></h2>
+                                </a>
+                            </div>
+                            <div class="col-md-2">
+                                <a href="/news/list?type=tainya">
+                                    <h2><span class="badge badge-secondary">天涯语料查看</span></h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a class="list-group-item">
+                                    <h3>天涯语料库样本数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>天涯语料库字符数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>天涯语料库总汉字个数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>天涯语料库说明</h3>
+                                    <p>天涯网络语言语料库是一个大型语料库。</p>
+                                </a>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+        <div class="card">
+            <div class="card-header" id="headingFour">
+                <h2 class="mb-0">
+                    <button class="btn btn-link collapsed" type="button" data-toggle="collapse"
+                            data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                        可比语料库
+                    </button>
+                </h2>
+            </div>
+            <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordionExample">
+                <div class="card-body">
+                    <div class="panel panel-danger ">
+                        <div class="panel-heading col-md-12 row">
+                            <div class="col-md-2">
+                                <a href="/news/list?type=search">
+                                    <h2><span class="badge badge-secondary">可比语料检索</span></h2>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="panel-body">
+                            <div class="list-group">
+                                <a class="list-group-item">
+                                    <h3>可比语料库样本数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>可比语料库字符数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>可比语料库总汉字个数</h3>
+                                    <p>10000</p>
+                                </a>
+                                <a class="list-group-item">
+                                    <h3>可比语料库说明</h3>
+                                    <p>可比语言语料库是一个大型语料库。</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
     </div>
 </div>
 </body>

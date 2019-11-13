@@ -1,6 +1,6 @@
 package com.nwnu.news.service.impl;
 
-import com.nwnu.news.entity.SjSinaArticleEntity;
+import com.nwnu.news.entity.SinaEntity;
 import com.nwnu.news.repository.SinaRepository;
 import com.nwnu.news.service.SinaService;
 import org.springframework.data.domain.Page;
@@ -40,8 +40,8 @@ public class SinaServiceImpl implements SinaService {
 	}
 
 	@Override
-	public SjSinaArticleEntity findById(String id) {
-		Optional<SjSinaArticleEntity> optional = sinaRepository.findById(id);
+	public SinaEntity findById(String id) {
+		Optional<SinaEntity> optional = sinaRepository.findById(id);
 		return optional.orElse(null);
 	}
 }

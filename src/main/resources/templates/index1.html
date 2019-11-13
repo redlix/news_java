@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css"/>
+
+    <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <title>网络语言语料库</title>
+</head>
+<style type="text/css">
+    * {
+        font-family: 微软雅黑;
+    }
+</style>
+<body>
+<div class="container">
+    <h1 class="page-header" align="center"><span class="badge badge-secondary">语料库总览</span></h1>
+    <!--面包屑-->
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item active" aria-current="page">首页</li>
+        </ol>
+    </nav>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-warning ">
+                <div class="panel-heading col-md-12 row">
+                    <div class="col-md-2">
+                        <a href="/news/list?type=sinaSearch">
+                            <h2><span class="badge badge-secondary">新浪语料检索</span></h2>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="/news/list?type=sina" >
+                            <h2><span class="badge badge-secondary">新浪语料查看</span></h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        <a class="list-group-item">
+                            <h3>新浪语料库样本数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>新浪语料库字符数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>新浪语料库总汉字个数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>新浪语料库说明</h3>
+                            <p>新浪网络语言语料库是一个大型语料库。</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-danger ">
+                <div class="panel-heading col-md-12 row">
+                    <div class="col-md-2">
+                        <a href="/news/list?type=search" >
+                            <h2><span class="badge badge-secondary">搜狐语料检索</span></h2>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="/news/list?type=sohu" >
+                            <h2><span class="badge badge-secondary">搜狐语料查看</span></h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        <a class="list-group-item">
+                            <h3>搜狐语料库样本数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>搜狐语料库字符数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>搜狐语料库总汉字个数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>新浪语料库说明</h3>
+                            <p>搜狐网络语言语料库是一个大型语料库。</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-danger ">
+                <div class="panel-heading col-md-12 row">
+                    <div class="col-md-2">
+                        <a href="/news/list?type=search" >
+                            <h2><span class="badge badge-secondary">天涯语料检索</span></h2>
+                        </a>
+                    </div>
+                    <div class="col-md-2">
+                        <a href="/news/list?type=tainya" >
+                            <h2><span class="badge badge-secondary">天涯语料查看</span></h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        <a class="list-group-item">
+                            <h3>天涯语料库样本数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>天涯语料库字符数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>天涯语料库总汉字个数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>天涯语料库说明</h3>
+                            <p>天涯网络语言语料库是一个大型语料库。</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <div class="panel panel-danger ">
+                <div class="panel-heading col-md-12 row">
+                    <div class="col-md-2">
+                        <a href="/news/list?type=search" >
+                            <h2><span class="badge badge-secondary">可比语料检索</span></h2>
+                        </a>
+                    </div>
+                </div>
+                <div class="panel-body">
+                    <div class="list-group">
+                        <a class="list-group-item">
+                            <h3>可比语料库样本数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>可比语料库字符数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>可比语料库总汉字个数</h3>
+                            <p>10000</p>
+                        </a>
+                        <a class="list-group-item">
+                            <h3>可比语料库说明</h3>
+                            <p>可比语言语料库是一个大型语料库。</p>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

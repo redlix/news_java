@@ -1,6 +1,6 @@
 package com.nwnu.news.service;
 
-import com.nwnu.news.entity.SjSinaArticleEntity;
+import com.nwnu.news.entity.SinaEntity;
 import org.springframework.data.domain.Page;
 
 /**
@@ -22,5 +22,5 @@ public interface SinaService {
 	 */
 	Page findAll(int pageNum, int pageSize);
 
-	SjSinaArticleEntity findById(String id);
+	SinaEntity findById(String id);
 }

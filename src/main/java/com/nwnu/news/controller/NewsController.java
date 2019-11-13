@@ -32,21 +32,6 @@ public class NewsController {
 		this.sinaService = sinaService;
 	}
 
-	@RequestMapping("/index")
-	public String index() {
-		return "index";
-	}
-
-	@RequestMapping("/list")
-	public String list(@RequestParam("type") String type) {
-		if (type.equals("sina")) {
-			return "sina_list.html";
-		} else if (type.equals("sohu")) {
-			return "sohu_list.html";
-		} else {
-			return "tianya_list.html";
-		}
-	}
 
 	@PostMapping("/data")
 	@ResponseBody

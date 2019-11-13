@@ -1,71 +1,68 @@
 <!DOCTYPE html>
-<html lang="en" xmlns="http://www.w3.org/1999/xhtml"
-      xmlns:th="http://www.thymeleaf.org"
-      xmlns:sec="http://www.thymeleaf.org/thymeleaf-extras-springsecurity3"
-      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
-    <link rel="stylesheet" href="/css/bootstrap.min.css" type="text/css"/>
-    <link rel="stylesheet" href="/dist/bootstrap-table.min.css" type="text/css"/>
-
-
+    <!-- jQuery -->
+    <!--    <script type="text/javascript" src="/search/jquery-1.11.3.min.js"></script>-->
     <script type="text/javascript" src="/js/jquery-3.4.1.min.js"></script>
-    <script type="text/javascript" src="/js/popper.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.min.js"></script>
+    <!-- EnjoyHint JS and CSS files -->
+    <script type="text/javascript" src="/search/enjoyhint/enjoyhint.min.js"></script>
+    <link href="/search/enjoyhint/enjoyhint.css" rel="stylesheet" type="text/css">
+    <!-- Bootstrap -->
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="/css/bootstrap.css" type="text/css"/>
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="/search/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" href="/dist/bootstrap-table.min.css" type="text/css"/>
+    <!-- Latest compiled and minified JavaScript -->
+    <script type="text/javascript" src="/search/popper.min.js"></script>
+    <script type="text/javascript" src="/js/bootstrap.js"></script>
+    <!-- My style -->
+    <link rel="stylesheet" href="/search/style.css">
+    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="/dist/bootstrap-table.min.js"></script>
     <script type="text/javascript" src="/dist/locale/bootstrap-table-zh-CN.min.js"></script>
-    <script type="text/javascript" src="/js/bootstrap.bundle.min.js"></script>
-    <title>网络语言语料库</title>
+
+    <title>新浪语料检索</title>
 </head>
-<style type="text/css">
-    * {
-        font-family: 微软雅黑;
-    }
-</style>
 <body>
+<!-- 代码 开始 -->
 <div class="container">
-    <h1 class="page-header" align="center"><span class="badge badge-secondary">新浪语料</span></h1>
+    <h1 class="page-header" align="center"><span class="badge badge-secondary">新浪语料检索</span></h1>
+    <!--面包屑-->
     <nav aria-label="breadcrumb">
         <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="/news/index">首页</a></li>
-            <li class="breadcrumb-item active" aria-current="page">新浪语料库</li>
+            <li class="breadcrumb-item active" aria-current="page">新浪语料库检索</li>
         </ol>
     </nav>
-    <div class="panel panel-default">
-        <div class="panel-body table-responsive">
-            <div id="toolbar" class="query-div row col-md-12">
-                <div class="my-container col-md-4 row">
-                    <!--                    <label class="myLabel-content">内容：</label>-->
-                    <div class="myText-content">
-                        <input id="busNo" type="text" class="form-control" placeholder="内容">
-                    </div>
+    <div class="featurette jumbotron">
+        <div class="featurette-inner text-center">
+            <div class="form-group row">
+                <div class="col-md-10">
+                    <input type="text" placeholder="Search" class="form-control" id="mySearchButton">
                 </div>
-                <div class="my-container col-md-4 row">
-                    <!--                    <label class="myLabel-content">时间：</label>-->
-                    <div class="myText-content">
-                        <input id="orderId" type="text" class="form-control" placeholder="时间">
+                <div class="col-md-2">
+                    <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton"
+                            data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        搜索选项
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                        <a class="dropdown-item" href="#">模糊搜索</a>
+                        <a class="dropdown-item" href="#">详细搜索</a>
+                        <a class="dropdown-item" href="#">搜索</a>
                     </div>
-                </div>
-                <div class="myBtn-content col-md-4 row">
-                    <button id="search" type="button" class="btn btn-primary">搜索</button>
-                    <button id="reset" type="button" class="btn btn-default">重置</button>
                 </div>
             </div>
-            <table id="query_results" class="table table-hover">
-                <thead>
-                <tr>
-                    <!--                    <th data-field="id">编号</th>-->
-                    <th data-field="url">URL</th>
-                    <th data-field="time" data-formatter="formatTime">时间
-                    </th>
-                    <th data-field="topic">主题</th>
-                    <th data-field="id" data-formatter="operateFormatter">操作</th>
-                </tr>
-                </thead>
-            </table>
         </div>
     </div>
+    <table id="query_results" class="table table-hover">
+        <thead>
+        <tr class="text-center">
+            <th data-field="id">内容</th>
+        </tr>
+        </thead>
+    </table>
 </div>
 <script type="text/javascript">
     //注意
